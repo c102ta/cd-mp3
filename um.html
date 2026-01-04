@@ -1,0 +1,87 @@
+<html>
+<head>
+<title>Salon- und Unterhaltungsmusik</title>
+<link rel="parent" href="index.html">
+<link rel="icon" type="image/png" href="icons/talogo.png">
+</head>
+<script language="JavaScript">
+function CheckNew(jahr, monat, tag)
+// zeigt ein New-Icon an, wenn jahr/monat/tag nicht mehr als ein
+// einstellbares Zeitfenster (dzt. 90 Tage) zurueckliegt.
+{
+	var heute = new Date();
+	var damals = new Date(jahr, monat - 1, tag);
+	var zeitfenster = 90;
+	if (heute.getTime() - damals.getTime() < 86400000 * zeitfenster)
+	{
+		document.write(
+		"<img src='icons/new.gif' width='31' height='12' title='gekauft/erhalten am ",
+		tag, ".", monat, ".", jahr, "'>");
+	}
+}
+</script>
+<body background="icons/talogo.jpg" bgcolor="#dbe5f1">
+
+<table border="0" cellspacing="0" cellpadding="6" width="100%">
+<tr>
+<td bgcolor="#c0d0e0"><h1 align="center"><font face="Comic Sans MS">Salon- und Unterhaltungsmusik</font></h1>
+<p align="center"><a href="index.html"><img src="icons/ba-cd.gif" width="73" height="22" alt="&Uuml;bersicht" title="Meine Audio-CDs und MP3-Dateien" border="0"></a>
+<a href="em.html"><img src="icons/ba-em.gif" width="73" height="22" alt="Ernste Musik" title="Abendl&auml;ndische Kunstmusik (Ernste Musik)" border="0"></a>
+<img src="icons/bi-um.gif" width="73" height="22" alt="Unterhaltung" title="Salon- und Unterhaltungsmusik" border="0">
+<a href="jazz.html"><img src="icons/ba-jazz.gif" width="73" height="22" alt="Jazz" title="Jazz und verwandte Stilrichtungen" border="0"></a>
+<a href="wm.html"><img src="icons/ba-wm.gif" width="73" height="22" alt="Weltmusik" title="Welt- und Meditationsmusik" border="0"></a>
+<a href="ipop.html"><img src="icons/ba-ipop.gif" width="73" height="22" alt="Pop internat." title="Internationale Pop- und Rockmusik" border="0"></a>
+<a href="dpop.html"><img src="icons/ba-dpop.gif" width="73" height="22" alt="Pop deutsch" title="Deutsche Popmusik" border="0"></a>
+<a href="misc.html"><img src="icons/ba-misc.gif" width="73" height="22" alt="Sonstiges" title="Sonstiges" border="0"></a></p></td>
+</tr>
+</table>
+
+<p><hr></p>
+
+<table border="0" cellspacing="4" cellpadding="2">
+
+<tr>
+<td valign="top"><a href="http://www.amazon.de/gp/product/B000025WMK"><img src="covers/445570.jpg" width="130" height="130" border="0" alt="[cover]" title="amazon.de info"></a></td>
+<td valign="top"><b>
+<a href="http://de.wikipedia.org/wiki/Strauss_(Familie)">Strauss (Familie)</a>: Walzer und Polkas</b><br>
+<i>Berliner Philharmoniker, Herbert von Karajan</i><br>
+Deutsche Grammophon 445 570-2
+<script language="JavaScript">CheckNew(2008,12,10);</script></td>
+</tr>
+
+<tr>
+<td valign="top"><img src="covers/sj_tew.jpg" width="130" height="130" border="0" alt="[cover]" title=""></td>
+<td valign="top"><b><a href="http://de.wikipedia.org/wiki/Scott_Joplin">Scott Joplin</a> (1868&ndash1917): The Easy Winners And Other Rag-Time Music</b><br>
+<i>Itzhak Perlman, Violine<br>
+Andr&eacute; Previn, Klavier</i><br>
+EMI CDC 7 47170 2</td>
+</tr>
+
+<tr>
+<td valign="top"><a href="http://www.amazon.de/gp/product/B0000046Z5"><img src="covers/gg_pab.jpg" width="130" height="130" border="0" alt="[cover]" title="amazon.de info"></a></td>
+<td valign="top"><b><a href="http://de.wikipedia.org/wiki/George_Gershwin">George Gershwin</a> (1898&ndash1937): Porgy and Bess &ndash; Querschnitt</b><br>
+<i>Ella Fitzgerald, Louis Armstrong</i><br>
+Verve 827 475-2</td>
+</tr>
+
+<tr>
+<td valign="top"><a href="http://www.amazon.de/gp/product/B00000264K"><img src="covers/86322.jpg" width="130" height="130" border="0" alt="[cover]" title="amazon.de info"></a></td>
+<td valign="top"><b>
+<a href="http://de.wikipedia.org/wiki/Barbra_Streisand">Barbra Streisand</a>: The Broadway Album</b><br>
+CBS CDCBS 86322</td>
+</tr>
+
+<tr>
+<td valign="top"><a href="http://www.amazon.de/gp/product/B000025TL1"><img src="covers/513792.gif" width="130" height="130" border="0" alt="[cover]" title="amazon.de info"></a></td>
+<td valign="top"><b><a href="http://de.wikipedia.org/wiki/Sylvester_Levay">Sylvester Levay</a> &amp; <a href="http://de.wikipedia.org/wiki/Michael_Kunze_(Librettist)">Michael Kunze</a>: Elisabeth (Ausschnitte)</b><br>
+<i>Ensemble und Orchester der Vereinigten B&uuml;hnen Wien, Caspar Richter</i><br>
+Polydor 513 792-2</td>
+</tr>
+
+</table>
+
+<p><hr></p>
+
+<p><address>Andreas Tranquillini</address></p>
+</body>
+</html>
